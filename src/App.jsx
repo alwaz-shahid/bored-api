@@ -21,7 +21,10 @@ function App() {
 
   return (
     <div className="">
+    <div className="m-body">
+
 <Wel/>
+    </div>
       {/* <h3 className="t">But hi (:</h3> */}
       <main className="content">
 
