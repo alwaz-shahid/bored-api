@@ -65,7 +65,7 @@
  .bored{
     position: relative;
     animation-name: my-bored;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     animation-delay: 0.8s;
     animation-timing-function: ease-in-out;
@@ -76,17 +76,31 @@
  }
 
  @keyframes my-bored {
-    from{
+    0%{
         /* transform: translateY(-300px); */
         transform: translateY(-100%);
         opacity: 0.4;
         visibility: hidden;
     }
-    to{
+    50%{
         /* transform: translateY(0px); */
         transform: translateY(0%);
         opacity: 0.9;
         visibility: visible;
+    }
+    85%{
+        /* transform: translateY(0px); */
+        transform: translateY(0%);
+        opacity: 0.9;
+        visibility: visible;
+    }
+    100%{
+      position: absolute;
+      top: 30px;
+      font-size: 60px;
+      padding: 10px;
+      visibility: visible;
+      left: 20px;
     }
  }
 
