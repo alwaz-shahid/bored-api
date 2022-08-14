@@ -66,86 +66,7 @@
   align-items: center;
   width: 100%;
 }
-.bg {
-  animation-name: my-bg;
-  animation-duration: 1.5s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-  /* background-color: #480ca8; */
-  background-color: #808080;
-  /* background-color: #1a1a1a; */
-}
 
-@keyframes my-bg {
-  0% {
-    /* transform: scale(0.3); */
-    background-color: #808080;
-  }
-  5% {
-    background-color: #e5e5e5;
-  }
-  10% {
-    background-color: #fcf6bd;
-  }
-  15% {
-    background-color: #edede9;
-  }
-  20% {
-    background-color: #fb5607;
-  }
-  25% {
-    background-color: #8338ec;
-  }
-  30% {
-    background-color: #3a86ff;
-  }
-  35% {
-    background-color: #ffbe0b;
-  }
-  40% {
-    background-color: #8ac926;
-  }
-  45% {
-    background-color: #f72585;
-  }
-  50% {
-    background-color: #fcbf49;
-  }
-  55% {
-    background-color: #000814;
-  }
-  60% {
-    background-color: #bbd0ff;
-  }
-  65% {
-    background-color: #003566;
-  }
-  70% {
-    background-color: #99d98c;
-  }
-  75% {
-    background-color: #d9ed92;
-  }
-  80% {
-    background-color: #415a77;
-  }
-
-  85% {
-    background-color: #eb5e28;
-  }
-  90% {
-    background-color: #9d4edd;
-  }
-
-  95% {
-    background-color: #e56b6f;
-  }
-  100% {
-    background: #d0f4de;
-    /* background: rgb(252, 246, 189); */
-
-  }
-}
 
 .emoji {
   position: relative;
@@ -361,5 +282,87 @@
   to {
     margin-left: 0%;
     width: 100%;
+  }
+}
+
+
+.bg {
+  animation-name: my-bg;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  /* background-color: #480ca8; */
+  background-color: #808080;
+  /* background-color: #1a1a1a; */
+}
+
+@keyframes my-bg {
+  0% {
+    /* transform: scale(0.3); */
+    background-color: #808080;
+  }
+  5% {
+    background-color: #e5e5e5;
+  }
+  10% {
+    background-color: #fcf6bd;
+  }
+  15% {
+    background-color: #edede9;
+  }
+  20% {
+    background-color: #fb5607;
+  }
+  25% {
+    background-color: #8338ec;
+  }
+  30% {
+    background-color: #3a86ff;
+  }
+  35% {
+    background-color: #ffbe0b;
+  }
+  40% {
+    background-color: #8ac926;
+  }
+  45% {
+    background-color: #f72585;
+  }
+  50% {
+    background-color: #fcbf49;
+  }
+  55% {
+    background-color: #000814;
+  }
+  60% {
+    background-color: #bbd0ff;
+  }
+  65% {
+    background-color: #003566;
+  }
+  70% {
+    background-color: #99d98c;
+  }
+  75% {
+    background-color: #d9ed92;
+  }
+  80% {
+    background-color: #415a77;
+  }
+
+  85% {
+    background-color: #eb5e28;
+  }
+  90% {
+    background-color: #9d4edd;
+  }
+
+  95% {
+    background-color: #e56b6f;
+  }
+  100% {
+    background: #d0f4de;
+    /* background: rgb(252, 246, 189); */
+
   }
 }
