@@ -1,51 +1,18 @@
 import { useState } from "react";
-
-import "./App.css";
-import emj from "./assets/bored1.svg";
-import Wel from "./WEl";
-let opt = [
-  "education",
-  "recreational",
-  "social",
-  "diy",
-  "charity",
-  "cooking",
-  "relaxation",
-  "music",
-  "busywork",
-];
-const url="http://www.boredapi.com/api/activity/"
+import Icon from "./components/Icon";
+import Container from "./components/Container";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="">
-    <div className="m-body">
+    <Container>
 
-<Wel/>
-    </div>
-      {/* <h3 className="t">But hi (:</h3> */}
-      <main className="content">
+      <main className="content"></main>
 
-      </main>
-
-      {/* <Icon/> */}
-
-    </div>
+      <Icon />
+    </Container>
   );
 }
 
 export default App;
-
-const Icon = (h = "400px", w = "400px",img=emj) => (
-
-
-  <img
-    src={img}
-    alt="emoji"
-    className="emoji hw"
-    style={{ width: w, height: h }}
-  />
-
-);
