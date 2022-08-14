@@ -1,7 +1,7 @@
 
 .emoji {
     position: relative;
-    animation-name: my-emoj;
+    animation-name: my-emoji;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-delay: 0.3s;
@@ -9,7 +9,7 @@
     animation-fill-mode: forwards;
     display: block;
   }
-    @keyframes my-emoj {
+    @keyframes my-emoji {
         0% {
         transform: translateY(0);
         opacity: 1;
@@ -59,64 +59,38 @@
         visibility: hidden;
         }
     }
-  @keyframes my-emoji {
-    0% {
-      opacity: 1;
-      top: 0%;
-    }
-    10% {
-      opacity: 0.9;
-      top: 0%;
-    }
-    20% {
-      opacity: 0.8;
-      top: 0%;
-    }
-    30% {
-      opacity: 0.7;
-      top: 0%;
-    }
-    40% {
-      opacity: 0.6;
-      top: 4%;
-    }
-    50% {
-      opacity: 0.5;
-      top: 0%;
-    }
-    60% {
-      opacity: 0.4;
-      top: 20%;
-    }
-    70% {
-      opacity: 0.3;
-      top: 40%;
-    }
-    80% {
-      opacity: 0.2;
-      top: 60%;
-    }
-    90% {
-      opacity: 0.1;
-      top: 80%;
-    }
-    99% {
-      opacity: 0.015;
-      top: 100%;
-    }
-    100% {
-      /* display: none; */
-      visibility: hidden;
-    }
-  }
-
-
-
-
 /* 2
  */
 
- 
+ .bored{
+    position: relative;
+    animation-name: my-bored;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    display: block;
+    visibility: hidden;
+    top: -50px;
+ }
+
+ @keyframes my-bored {
+    from{
+        /* transform: translateY(-300px); */
+        transform: translateY(-100%);
+        opacity: 0.4;
+        visibility: hidden;
+    }
+    to{
+        /* transform: translateY(0px); */
+        transform: translateY(0%);
+        opacity: 0.9;
+        visibility: visible;
+    }
+ }
+
+
 .pp {
     animation: color-change 1s infinite;
   }
