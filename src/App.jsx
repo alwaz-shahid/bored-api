@@ -11,8 +11,8 @@ function App() {
 {/* <Nav/>
  */}
       <main className="content"></main>
- <div className="bg-gray-200 p-6">
-        <h1 className="text-3xl font-bold underline">
+ <div className="bg-slate-800">
+        <h1 className="">
 
           Hello world!
         </h1>
