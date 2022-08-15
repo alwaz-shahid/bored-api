@@ -4,5 +4,52 @@
   padding: 2rem;
   text-align: center;
 } */
+/* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
+/* npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch */
+
+.heading {
+  animation: wel 1.5s ease-in-out 2s alternate infinite;
+}
+
+@keyframes wel {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
 
 
+
+.content {
+  animation: my-content 0.5s ease-in-out;
+  animation-delay: 2s;
+  background-color: #40916c;
+}
+@keyframes my-content {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
