@@ -4,7 +4,7 @@ import Main from '../components/Main'
 
 export default function Home() {
   return (
-    <Main>
+    <>
 
       <Head>
         <title>Bored af</title>
@@ -12,11 +12,11 @@ export default function Home() {
         <link rel="icon" href="/assets/bored2.svg" />
       </Head>
 
-      <div className='relative min-h-f'>
-   
+      <div className='relative min-h-full'>
+      <h1 className='animate-moving-line '>Nav</h1>
 
       </div>
 
-    </Main>
+    </>
   )
 }

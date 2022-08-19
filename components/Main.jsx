@@ -1,13 +1,14 @@
-import React from 'react'
-import Emoji from './Emoji'
+import React from "react";
+import Emoji from "./Emoji";
+import Nav from "./Nav";
 
-export default function Main({children}) {
+export default function Main({ children }) {
   return (
-    <main className='h-screen min-w-full'>
-      <h1 className='text-4xl font bored'>Bored af</h1>
+    <main className="min-h-screen overflow-hidden min-w-full max-w-7xl mx-auto bg-slate-800 scrollbar">
 
-      <Emoji/>
+      <Nav />
+      <Emoji />
       {children}
     </main>
-  )
+  );
 }

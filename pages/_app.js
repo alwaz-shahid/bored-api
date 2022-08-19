@@ -1,11 +1,13 @@
 import "../styles/globals.css";
 import "../styles/effects.css";
 import "../styles/main.css";
+import Main from "../components/Main";
+
 function MyApp({ Component, pageProps }) {
   return (
-    <section className="container">
-      <Component {...pageProps} />
-    </section>
+    <Main>
+      <Component {...pageProps} />;
+    </Main>
   );
 }
 
