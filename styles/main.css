@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 
-.container{
+/* .container{
     @apply bg-slate-200 max-w-7xl min-h-full min-w-full mx-auto relative;
-}
+} */
 .scrollbar::-webkit-scrollbar {
     width: 2px;
     height: 2px;
