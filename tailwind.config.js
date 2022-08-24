@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        bung: "Bungee Shade",
+        pt: 'PT Mono',
+        maze:"Rubik Marker Hatch"
       },
       keyframes: {
         "fade-in-down": {
@@ -69,7 +70,7 @@ module.exports = {
             height: "0",
             width: "0",
             opacity: "0",
-
+            backgroundColor: "transparent",
             display: "none",
             transform: "translateY(150%,-100px)",
           },
@@ -78,18 +79,19 @@ module.exports = {
             opacity: "1",
             height: "50px",
             width: "50px",
+            backgroundColor: "#111827",
             transform: "translate(500%,0px)",
           },
           "25%": {
             display: "block",
             opacity: "1",
-            height: "20px",
+            height: "50px",
             width: "100px",
-            transform: "translate(300%,0)",
-            backgroundColor: "#0a9396",
+            transform: "translate(400%,0)",
+            backgroundColor: "#111827",
           },
           "50%": {
-            backgroundColor: "#0a9396",
+            backgroundColor: "#111827",
             left: "20%",
             height: "50px",
             width: "100vw",
@@ -99,14 +101,14 @@ module.exports = {
             alignItems:'center',
           },
           "75%": {
-            backgroundColor: "#0a9396",
+            backgroundColor: "#111827",
             left: "0%",
             height: "50px",
-            width: "400px",
+            width: "100px",
             transform: "translate(500px,0px)",
           },
           "100%": {
-            backgroundColor: "#0a9396",
+            backgroundColor: "#111827",
             minWidth: "100%",
             minHeight:'50px',
             transform: "translate(0,0)",
@@ -135,8 +137,8 @@ module.exports = {
         "fade-out-up": "fade-out-up 0.5s ease-out",
         fd: "fade-out-up 4s ease-in-out 2s",
         log: "logo-f 2.5s linear",
-        "box-grow": "box-grow 1.5s linear 0.8s forwards",
-        "rev": "rev 3s linear forwards"
+        "box-grow": "box-grow 2s linear  forwards",
+        "rev": "rev 2.6s linear forwards"
       },
     },
   },

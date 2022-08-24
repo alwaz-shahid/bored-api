@@ -1,6 +1,4 @@
 import React from "react";
-import Btn from "./Btn";
-import Emoji from "./Emoji";
 import Nav from "./Nav";
 
 export default function Main({ children }) {
