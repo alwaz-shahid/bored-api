@@ -198,3 +198,33 @@
     /* left: 20px; */
   }
 }
+
+
+
+.test-b{
+  opacity: 0;
+  animation:dropin 1s ease-in;
+  animation-fill-mode: forwards;
+  /* animation-delay: calc(var(--delay) * 1s); */
+}
+@keyframes dropin {
+  20% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  30%,100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+:root{
+  --bg-clr-1: #E7F8F8;
+  --card-clr-red: #F03E3E;
+  --card-clr-violet: #42e11a;
+  --card-clr-green: #12B886;
+  --text-clr: #333;
+  ---delay-1:1;
+  --delay-2:2;
+  --delay-3:3;
+  --delay-4:4;
+}
